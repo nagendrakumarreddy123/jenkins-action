@@ -14,10 +14,4 @@ jobs:
         token: ${{ secrets.TOKEN }}
         job: "foobar"
 
-    - name: trigger multiple Job
-      uses: nagendrakumarreddy123/jenkins-action@main
-      with:
-        url: "http://example.com"
-        user: "example"
-        token: ${{ secrets.TOKEN }}
-        job: "job_1,job_2"
+   
